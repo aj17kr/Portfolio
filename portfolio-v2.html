@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personal portfolio-FCC Project 2</title>
+
+ <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- =============================Meta Tags======================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- =====================Bootstrap and Custom Stylesheet ==================== -->
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="portfolio-v2-css.css"/>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- =========== .Arrow class to navigate to the top of the page START -->
+    <div class="arrow">
+        <a href="#about" id="arrow-nav-about"> <i class="fa fa-angle-double-up fa-2x"> </i> </a>
+    </div>
+<!-- =========== /.Arrow class to navigate to the top of the page ENDS -->
+
+<!-- ===============Navbar START================= -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">  
+        <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">Mr. Developer</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navy">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--Collect other links ,searchbar etc in collapse form-->
+            <div class="collapse navbar-collapse" id="navy">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"> <a id="nav-about" href="#about">ABOUT </a> </li>
+                    <li> <a id="nav-portfolio" href="#portfolio">PORTFOLIO </a> </li>
+                    <li> <a id="nav-contact" href="#contact">CONTACT </a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+    <!-- =================/Navbar END ================= -->
+
+    <!-- ==================Grey left & right Margin background bar START ==================== -->
+    <div class="background-bar">
+
+    <!--===================================#ABOUT START========================================-->
+        <div id="about"> 
+            <div class="container-fluid">
+                <div class="row row-padding">  <!-- .row-padding for left and right 20px padding START -->
+                   
+                   <!-- Description para about self START -->
+                    <div class="col-md-8">
+                        <p style="font-size: 22px;font-family: Calibri;"> The name is Akhil and I'm an Frontend developer, with basic knowledge and practical experience in HTML,CSS,JavaScipt,JQUERY and Bootstrap. Currently practicing current learnt technologies and planned to learn more ,also a smartPhone geek and have plans to launch a tech review blog. </p>
+                       
+                        <!-- hr and font awesome icon for underlining START -->
+                        <div class="row">
+                            <div class="col-xs-5 col-md-5">
+                                <hr class="hr1">
+                            </div>
+                <div class="col-xs-2 col-md-2 " style="padding: 0;"> 
+                        <i class="fa fa-code fa-3x"> </i> 
+                </div>
+                            <div class="col-xs-5 col-md-5">
+                                <hr class="hr1"> 
+                            </div>
+                        </div>  
+                        <!-- /hr and font awesome icon for underlining END -->
+
+                        <!-- Self bio START -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p style="font-size: 24px;font-family: Calibri;"> Web Developer - SmartPhone Geek -Tech Enthusiastic </p>
+                            </div>
+                        </div>
+                        <!-- /Self profession bio END -->
+                    </div>
+                    <!-- /Description para about self ENDS -->
+                    
+                    <!-- Profile image START -->
+                    <div class="col-md-4">
+                    <!-- .img-responsivemod for inline block tweak(look correct) -->
+                        <img class="img-circle img-responsive img-responsivemod" src="profile.jpg">
+                    </div>
+                    <!-- /Profile image ENDS -->
+
+                </div>
+                <!-- /.row-padding for left and right 20px padding ENDS -->
+            </div>
+        </div>
+        <!-- ===================================/#ABOUT ENDS========================================= -->
+        
+
+        <!-- ================================#PORTFOLIO START=================================== -->
+        <div id="portfolio">
+            <div class="container-fluid">
+                <h2> <strong> PORTFOLIO </strong> </h2>
+
+        <!-- hr and font awesome icon for underlining START || .row-responsive gives margin-left:275px -->
+                <div class="row row-responsive">
+                    
+                    <div class="col-xs-5 col-md-3">
+                        <hr class="hr2"> 
+                    </div>
+                <div class="col-xs-2 col-md-1"> 
+                    <i class="fa fa-code fa-3x"> </i> 
+                </div>
+                    <div class="col-xs-5 col-md-3">
+                        <hr class="hr2">
+                    </div>
+                </div>
+                    <!-- /hr and font awesome icon for underlining ENDS -->
+
+            <!-- 6 portfolio images , 2 in 1 row STARTS -->
+                <div class="row row-padding" style="padding-top: 25px;">
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                </div>
+                <div class="row row-padding">
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                </div>
+            <!-- /6 portfolio images , 2 in 1 row ENDS -->
+
+            </div>
+        </div>
+        <!-- ================================/#PORTFOLIO ENDS=================================== -->
+        
+
+        <!-- ================================#CONTACT START=================================== -->
+        <div id="contact">
+            <div class="container-fluid">
+                <h2 class="text-center"> <strong> CONTACT ME </strong> </h2>
+                
+     <!-- hr and font awesome icon for underlining START || .row-responsive gives margin-left :275px -->
+                <div class="row row-responsive"> 
+                    <div class="col-xs-5 col-md-3">
+                        <hr class="hr2"> </div>
+                    <div class="col-xs-2 col-md-1"> <i class="fa fa-code fa-3x"> </i> </div>
+                    <div class="col-xs-5 col-md-3">
+                        <hr class="hr2"> </div>
+                </div>
+    <!-- /hr and font awesome icon for underlining ENDS -->
+
+                <div class="row row-padding" style="padding-top:30px;">
+                    <div class="col-md-6">
+     <!-- Form Starts -->    <form role="form">
+            <!-- Form> Name -->
+                            <div class="form-group">
+                                <label for="name">Name </label>
+                                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            </div>
+            <!-- Form> Email -->
+                            <div class="form-group">
+                                <label for="email">Email </label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+            <!-- Form> Phone -->               
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Phone Number" required>
+                            </div>
+            <!-- Form> Message/Textbox -->                
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="8" style="width: 100%" placeholder="Message" required></textarea>
+                            </div>
+
+                            <br>
+                            <br>
+             <!-- Form> Submit Button -->               
+                            <button type="submit" class="btn btn-info">Submit </button>
+                        </form>
+<!-- /Form Ends -->      </div>
+
+                    <div class="col-md-6 form-top-padding-mobile-view">
+                        <p style="font-size: 22px;font-family: Calibri;">Want to get in touch with me? Be it to know more about me, my experience , my resume ,tips on solving Tech problems, advice on buying new Smartphone and the meaning of life. Feel free to drop message any time. </p>
+                        <p style="font-size: 22px;font-family: Calibri;"> Will reply A.S.A.P. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ================================/#CONTACT ENDS=================================== -->
+
+<!-- ================================FOOTER STARTS==================================== -->
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-md-6">
+                    <p style="font-family:Calibri;font-size: 28px;color:#fff"> <strong>ABOUT THIS PAGE</strong> </p>
+                    <p style="font-family:Calibri;font-size: 22px;color:#fff"> Made with <i class="fa fa-coffee"> </i> and <i class="fa fa-music"> </i>
+                        <br>by <span style="color:purple;"><strong> Akhil Kr.</strong> </span> </p>
+                </div>
+                <div class="col-md-6 form-top-padding">
+                <p style="font-family:Calibri;font-size:28px;color:#fff"> <strong>AROUND THE WEB</strong> </p>
+                    <p id='social-hover'>
+                        <a href="#" class="link-social-color">
+                            <i class="fa fa-facebook"> </i>
+                        </a>
+                        <a href="#" class="link-social-color">
+                            <i class="fa fa-twitter"> </i>
+                        </a>
+                        <a href="#" class="link-social-color">
+                            <i class="fa fa-linkedin"> </i>
+                        </a>
+                        <a href="#" class="link-social-color">
+                            <i class="fa fa-github"> </i>
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+<!-- ================================/FOOTER ENDS==================================== -->
+
+
+<!-- SUB-FOOTER STARTS-->
+    <div id="sub-footer">
+        <span class="sub-footer-logo">Mr.Developer </span> © 2016. All Rights Reserved
+    </div>
+<!-- /SUB-FOOTER ENDS-->
+
+
+    <!-- ==========================START JAVASCRIPT ,JQUERY SCRIPT TAGS========================= -->
+    
+    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+    <script>
+
+       $(document).on('click', '#nav-about,#nav-portfolio,#nav-contact,#arrow-nav-about', function(event) {
+           event.preventDefault();
+           var target = this.getAttribute('href');
+           $('html, body').animate({
+               scrollTop: $(target).offset().top
+           }, 2000);
+       });
+
+/* ------------Navbar Auto-hode scroll code for hiding on scroll down ,visible on scroll up---------- */
+
+// Hide Header on on scroll down
+
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('nav').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('nav').addClass('nav-up');
+        $('#navy').removeClass('in');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('nav').removeClass('nav-up');
+            $('#navy').removeClass('in');
+        }
+    }
+    lastScrollTop = st;
+}       
+
+</script>
+
+</body>
+</html>

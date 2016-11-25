@@ -1,0 +1,187 @@
+   .arrow i {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        border: 2px solid white;
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+        text-align: center;
+        transition: background-color 0.5s;
+        color: white;
+        z-index: 9999;
+        background-color:rgb(160,14,37);
+    }
+    
+    .arrow i:hover {
+        background-color: white;
+        color: black
+    }
+
+
+    /*Navbar Customized */
+.navbar-inverse{
+        background:none;
+        filter:none;
+        background-color: black;
+        padding: 20px 20px;
+        box-shadow: 0px 0px 4px 0px rgb(103, 103, 103);
+         }
+
+        @font-face {
+    font-family: MR_ROBOT;
+    src: local(MR_ROBOT), url('MR_ROBOT.ttf') format('opentype');
+}
+
+.navbar-inverse .navbar-brand{
+        font-family: mr_robot;
+        font-size: 25px;
+        padding:20px 0px;
+        color:rgb(160,14,37);
+}
+
+nav{transition: top 0.2s ease-in-out;}
+.nav-up{top:-93px;}  /*For setting the height for hiding navbar when scrolling down */
+
+.navbar-inverse .navbar-nav >li>a{font-weight: bold;}
+.navbar-inverse .navbar-nav >.active>a{background-color: rgb(160,14,37);color:white;border-radius: 8px;}
+.navbar-inverse .navbar-nav >.active>a:hover{background-color: #e7e7e7;color:#555;}
+.navbar-inverse .navbar-toggle{border-color: #ddd;margin-right:-10px;}
+.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color: #ddd;}
+
+
+#about {
+        padding-top: 120px;
+        padding-bottom: 60px;
+        width: 76%;
+        margin: 0 auto;
+        background-color: rgb(170, 170, 170);
+        color: white;
+        box-shadow: 0px 0px 4px 0px rgb(103, 103, 103);
+        text-align: center
+    }
+    
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 76%;
+        margin: 0 auto;
+        background-color: #eee;
+        color: #888;
+        text-align: center;
+        border-bottom: 1px solid #888
+    }
+    
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 76%;
+        margin: 0 auto;
+        background-color: #eee;
+        color: #888;
+        border-bottom: 1px solid #888
+    }
+    
+    footer {
+        background-color: #aaa;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    
+    #sub-footer {
+        background-color: black;
+        color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-family: Calibri;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .sub-footer-logo{font-family:"mr_robot";color: rgb(160,14,37);font-size: 20px;}
+    
+    .background-bar {
+        background-color: rgb(136, 136, 136);
+    }
+    
+    .hr1 {
+        border: 3px solid white;
+    }
+    
+    .hr2 {
+        border: 3px solid #888;
+    }
+    
+    .row-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .img-responsivemod {
+        display: inline-block;
+    }
+    
+    .form-control {
+        height: 65px;
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, 0.03);
+        box-shadow: none !important;
+        border-width: 0px 0px 1px 0px;
+    }
+    
+    textarea {
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, 0.03);
+        box-shadow: none !important;
+        border-width: 0px 0px 1px 0px;
+        border-bottom: 1px solid RGBA(85, 85, 85, 0.23);
+        padding-left: 12px;
+        color: #555;
+    }
+    
+    #social-hover i {
+        border: 2px solid white;
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+        font-size: 1.8em;
+        transition: background-color 0.5s;
+        color: white;
+    }
+    
+    
+    #social-hover .fa-facebook:hover{background-color:rgb(59,87,157);border-color:rgb(59,87,157);}
+    #social-hover .fa-twitter:hover{background-color:rgb(44,170,225);border-color:rgb(44,170,225);}
+    #social-hover .fa-linkedin:hover{background-color:rgb(0,124,183);border-color:rgb(0,124,183);}
+    #social-hover .fa-github:hover{background-color:black;border-color:black;}
+
+ 
+
+    /*.MEDIA ONLY QUERY TO REMOVE THE SIDEBAR FROM LEFT AND RIGHT SIDE IN MOBILE VIEW */
+    
+    @media only screen and (max-width: 768px) {
+        #about {
+            width: 100%
+        }
+        #portfolio {
+            width: 100%
+        }
+        #contact {
+            width: 100%;
+        }
+        .form-top-padding-mobile-view {
+            padding-top: 50px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .row-responsive {
+            margin-left: 275px;
+        }
+        .arrow {
+            display: none;
+        }
+    }
