@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Personal portfolio-FCC Project 2</title>
+    <title>Personal portfolio Akhil Jain-FCC Project</title>
 
  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,15 +12,17 @@
 
     <!-- =============================Meta Tags======================== -->
     <meta charset="utf-8">
+    <!-- Chrome, Firefox OS and Opera address bar color change -->
+    <meta name="theme-color" content="black">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- =====================Bootstrap and Custom Stylesheet ==================== -->
-    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="portfolio-v2-css.css"/>
-
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- =========== .Arrow class to navigate to the top of the page START -->
@@ -53,7 +54,7 @@
     </nav>  
     <!-- =================/Navbar END ================= -->
 
-    <!-- ==================Grey left & right Margin background bar START ==================== -->
+    <!-- ==================Grey left & right background bar START ==================== -->
     <div class="background-bar">
 
     <!--===================================#ABOUT START========================================-->
@@ -63,7 +64,7 @@
                    
                    <!-- Description para about self START -->
                     <div class="col-md-8">
-                        <p style="font-size: 22px;font-family: Calibri;"> The name is Akhil and I'm an Frontend developer, with basic knowledge and practical experience in HTML,CSS,JavaScipt,JQUERY and Bootstrap. Currently practicing current learnt technologies and planned to learn more ,also a smartPhone geek and have plans to launch a tech review blog. </p>
+                        <p style="font-size: 22px;font-family: Calibri;"> The name is Akhil and I'm an Frontend developer, with basic knowledge and practical experience in HTML,CSS,JavaScipt,JQUERY and Bootstrap. Currently practicing current learnt technologies,also a Smartphone geek and have future plans to launch a tech review blog. </p>
                        
                         <!-- hr and font awesome icon for underlining START -->
                         <div class="row">
@@ -92,7 +93,7 @@
                     <!-- Profile image START -->
                     <div class="col-md-4">
                     <!-- .img-responsivemod for inline block tweak(look correct) -->
-                        <img class="img-circle img-responsive img-responsivemod" src="profile.jpg">
+                        <img class="img-circle img-responsive img-responsivemod" src="images/profile.jpg">
                     </div>
                     <!-- /Profile image ENDS -->
 
@@ -125,16 +126,16 @@
 
             <!-- 6 portfolio images , 2 in 1 row STARTS -->
                 <div class="row row-padding" style="padding-top: 25px;">
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
                 </div>
                 <div class="row row-padding">
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
                 </div>
                 <div class="row row-padding">
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
-                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
+                    <div class="col-md-6"> <img style="padding-bottom: 11px;" class="img-responsive" src="images/placeholder.png"> </div>
                 </div>
             <!-- /6 portfolio images , 2 in 1 row ENDS -->
 
@@ -160,23 +161,24 @@
 
                 <div class="row row-padding" style="padding-top:30px;">
                     <div class="col-md-6">
-     <!-- Form Starts -->    <form role="form">
-            <!-- Form> Name -->
+                    <!-- Form Starts --> 
+                       <form role="form">
+            <!-- Form Name -->
                             <div class="form-group">
                                 <label for="name">Name </label>
                                 <input type="text" class="form-control" id="name" placeholder="Name" required>
                             </div>
-            <!-- Form> Email -->
+            <!-- FormEmail -->
                             <div class="form-group">
                                 <label for="email">Email </label>
                                 <input type="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
-            <!-- Form> Phone -->               
+            <!-- Form Phone -->               
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
                                 <input type="text" class="form-control" id="phone" placeholder="Phone Number" required>
                             </div>
-            <!-- Form> Message/Textbox -->                
+            <!-- Form Message/Textbox -->                
                             <div class="form-group">
                                 <label for="message">Message</label>
                                 <textarea class="form-control" id="message" rows="8" style="width: 100%" placeholder="Message" required></textarea>
@@ -184,10 +186,11 @@
 
                             <br>
                             <br>
-             <!-- Form> Submit Button -->               
+             <!-- Form Submit Button -->               
                             <button type="submit" class="btn btn-info">Submit </button>
                         </form>
-<!-- /Form Ends -->      </div>
+                    <!-- /Form Ends --> 
+                    </div>
 
                     <div class="col-md-6 form-top-padding-mobile-view">
                         <p style="font-size: 22px;font-family: Calibri;">Want to get in touch with me? Be it to know more about me, my experience , my resume ,tips on solving Tech problems, advice on buying new Smartphone and the meaning of life. Feel free to drop message any time. </p>
@@ -207,7 +210,7 @@
                 <div class="col-md-6">
                     <p style="font-family:Calibri;font-size: 28px;color:#fff"> <strong>ABOUT THIS PAGE</strong> </p>
                     <p style="font-family:Calibri;font-size: 22px;color:#fff"> Made with <i class="fa fa-coffee"> </i> and <i class="fa fa-music"> </i>
-                        <br>by <span style="color:purple;"><strong> Akhil Kr.</strong> </span> </p>
+                    <br>by <a href="#" style="text-decoration: none"> <span style="color:purple;"><strong> Akhil Jain</strong> </span></a> </p>
                 </div>
                 <div class="col-md-6 form-top-padding">
                 <p style="font-family:Calibri;font-size:28px;color:#fff"> <strong>AROUND THE WEB</strong> </p>
@@ -242,11 +245,11 @@
 
     <!-- ==========================START JAVASCRIPT ,JQUERY SCRIPT TAGS========================= -->
     
-    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
     <script>
-
+/*Smooth scrolling code between links*/
        $(document).on('click', '#nav-about,#nav-portfolio,#nav-contact,#arrow-nav-about', function(event) {
            event.preventDefault();
            var target = this.getAttribute('href');
@@ -254,7 +257,9 @@
                scrollTop: $(target).offset().top
            }, 2000);
        });
+   </script>
 
+   <script>
 /* ------------Navbar Auto-hode scroll code for hiding on scroll down ,visible on scroll up---------- */
 
 // Hide Header on on scroll down
